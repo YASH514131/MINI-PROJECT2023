@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        document.addEventListener('DOMContentLoaded',function(){
+            document.querySelector('#red').onclick=function(){
+                document.querySelector('#welcome').style.color='red'
+            }
+            document.querySelector('#blue').onclick=function(){
+                document.querySelector('#welcome').style.color='blue'
+            }
+            document.querySelector('#green').onclick=function(){
+                document.querySelector('#welcome').style.color='green'
+            }
+        })
+    </script>
+</head>
+<body>
+    <h1 id="welcome">KOniichiwa</h1>
+    <button id="red">red</button>
+    <button id="blue">blue</button>
+    <button id="green">green</button>
+</body>
+</html>
