@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function hello(){
+           if(document.querySelector('h1').innerHTML==='welcome'){
+            document.querySelector('h1').innerHTML='HAVE A GOD DAY'
+           }
+           else{
+            document.querySelector('h1').innerHTML='welcome'
+           }
+        }
+    </script>
+</head>
+<body>
+    <h1 id="woo">welcome</h1>
+    <button onclick="hello()" >click me</button>
+    
+</body>
+</html>
